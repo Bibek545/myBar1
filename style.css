@@ -39,16 +39,26 @@ header li {
     
 }
 .card1 {
-    height: 150px;
-    width:150px;
+    /* height: 150px;
+    width:150px; */
     background-color: black;
 
 }
-.card2 {
+.card1 img {
     height: 150px;
     width:150px;
+    
+}
+.card2 {
+    /* height: 150px;
+    width:150px; */
     background-color: red;
 
+}
+.card2 img {
+    height: 150px;
+    width:150px;
+    
 }
 .card3 {
     height: 150px;
