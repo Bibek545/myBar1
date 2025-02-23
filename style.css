@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+header li {
+    display: inline-block;
+    font-size: 40px;
+}
+.home {
+    background-image: url('https://thisisthebarbershop.com/wp-content/uploads/2016/04/TBS_20Sep_07_LR-e1479882633858.jpg');
+    height:400px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:azure;
+}
+.content {
+    text-align: center;
+}
+.image-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-card {
+    height: 400px;
+    width: ;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row; */
+    
+}
+.card1 {
+    height: 150px;
+    width:150px;
+    background-color: black;
+
+}
+.card2 {
+    height: 150px;
+    width:150px;
+    background-color: red;
+
+}
+.card3 {
+    height: 150px;
+    width:150px;
+    background-color: yellow;
+
+}
