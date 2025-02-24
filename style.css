@@ -6,19 +6,31 @@ header {
     background-color: lightblue;
     font-size: 20px;
 }
+/* nav bar */
 header li {
     display: inline-block;
     font-size: 40px;
 }
+
+/* Home page */
 .home {
-    background-image: url('https://thisisthebarbershop.com/wp-content/uploads/2016/04/TBS_20Sep_07_LR-e1479882633858.jpg');
-    height:400px;
+    background-image: url('./source/barbershop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:700px;
     background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color:azure;
+}
+.home h2 {
+    font-size: 35px;
+}
+.home p {
+    font-size: 15px;
 }
 .content {
     text-align: center;
@@ -55,7 +67,7 @@ header li {
     background-color: red;
 
 }
-.card2 img {
+.card2 img { 
     height: 150px;
     width:150px;
     
@@ -64,5 +76,21 @@ header li {
     height: 150px;
     width:150px;
     background-color: yellow;
+}
 
+/* css for all three buttons */
+button {
+    background-color:black;
+    font-size: 12px;
+    height: 40px;
+    width: 300px;
+    color: white;
+    border-radius: 20%;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    gap: 10px;
 }
